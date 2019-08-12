@@ -1,0 +1,73 @@
+<!doctype html> 
+<html lang="en-US">
+<head>
+    <title>Etiti | The Official Website</title>
+    <link rel="icon" type="image/png" href="images/other pink.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial scale=1">
+    <link rel="stylesheet" media="screen" href="Etiti.css">
+    <link rel="stylesheet" media="screen" href="Icon.css">
+
+    <style type="text/css">
+
+.navbar a:hover{
+                 color:/*#ff1a75;*/#ff4dd2; 
+                  text-decoration: none; 
+                 font-weight: bold; 
+    }
+	body, html {
+                height: 100%;
+                margin: 0;
+    }
+ 
+ 
+    </style>
+		
+	
+	
+</head>
+ <div class="navbar"> <a class="logo" href="index.html"><img class="logo" src="images/dark.png" onmouseover="this.src='images/pink.png'" onmouseout="this.src='images/dark.png'" border="0" alt="Etiti logo"/> </a>
+ <div id="mylinks"><a href="index.html" style="color: #ff4dd2;">HOME <hr></a>
+    <a href="about.html">ABOUT <hr></a>
+    <a href="news.html">NEWS <hr></a>
+    <a href="music.html">MUSIC <hr></a>
+    <a href="videos.html">VIDEOS <hr></a>
+    <a href="gallery.html">GALLERY <hr></a>
+    <a href="contact.html">CONTACT <hr></a></div>
+ <a href="javascript:void(0);" class="icon" onclick="myfunction()"><div class="container">
+<div class="bar1"></div>
+<div class="bar2"></div>
+<div class="bar3"></div>
+</div></a>
+	 </div>
+	<body class="bg"> <!--  HOME | ABOUT | NEWS | MUSIC | VIDEOS | GALLERY | CONTACT -->
+	<!--<div class="bg"> <p></p><br><p></p><br><p></p> <br><p></p> <p style="color: white; font-size: 35px; margin-left: 50px; font-weight: bold;"><em>Welcome to Etiti Music</em><p></div> -->
+	
+	<!-- <h1 style="text-align: left; color: white; font-family: Maiandra GD; font-weight: lighter; margin-top: 120px">WELCOME TO ETITI MUSIC</h1> --> 
+
+
+    <div class="div">
+         <a href="https://www.facebook.com/etiti.music/" target="_blank" class="fa fa-facebook"></a>
+         <a href="https://twitter.com/_etiti_" class="fa fa-twitter"></a>
+         <a href="https://www.instagram.com/_etiti_/" target="_blank" class="fa fa-instagram"></a>
+         <a href="https://www.youtube.com/channel/UCVxCfRoslbhTWlCkvi3V0lQ" target="_blank" class="fa fa-youtube"></a>
+    </div>
+
+
+
+    <script type="text/javascript">
+        function myfunction() {
+            var x = document.getElementById('mylinks');
+            if (x.style.display === "block") {
+                x.style.display= "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
+
+
+
+</body>
+</html>
